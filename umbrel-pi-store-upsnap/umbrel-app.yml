@@ -1,7 +1,7 @@
 ﻿manifestVersion: 1
 id: upsnap
 category: networking
-name: umbrel-pi-store-Upsnap
+name: umbrel-pi-store-upsnap
 version: "2.0.0"
 tagline: Self-hosted uptime monitor for your services
 description: >-
