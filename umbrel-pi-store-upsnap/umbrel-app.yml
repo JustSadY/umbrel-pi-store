@@ -1,5 +1,5 @@
 ﻿manifestVersion: 1
-id: upsnap
+id: umbrel-pi-store-upsnap
 category: networking
 name: Upsnap
 version: "2.0.0"
