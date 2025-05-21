@@ -26,6 +26,5 @@ support: https://github.com/seriousm4x/upsnap/issues
 port: 3000
 gallery:
   - https://raw.githubusercontent.com/seriousm4x/UpSnap/1908a8c127206e34e444d2ea1a92aedbce908440/frontend/static/gopher.svg
-path: ""
 submitter: JustSadY
 submission: https://github.com/JustSadY/umbrel-pi-store
