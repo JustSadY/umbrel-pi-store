@@ -24,10 +24,5 @@ dependencies: []
 repo: https://github.com/seriousm4x/upsnap
 support: https://github.com/seriousm4x/upsnap/issues
 port: 8090
-gallery:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
-path: ""
 submitter: JustSadY
 submission: https://github.com/JustSadY/umbrel-pi-store
