@@ -1,7 +1,7 @@
 ﻿manifestVersion: 1
-id: umbrel-pi-store-upsnap
+id: upsnap
 category: networking
-name: Upsnap
+name: umbrel-pi-store-Upsnap
 version: "2.0.0"
 tagline: Self-hosted uptime monitor for your services
 description: >-
@@ -24,5 +24,8 @@ dependencies: []
 repo: https://github.com/seriousm4x/upsnap
 support: https://github.com/seriousm4x/upsnap/issues
 port: 8090
+gallery:
+  - https://raw.githubusercontent.com/seriousm4x/UpSnap/1908a8c127206e34e444d2ea1a92aedbce908440/frontend/static/gopher.svg
+path: ""
 submitter: JustSadY
 submission: https://github.com/JustSadY/umbrel-pi-store
