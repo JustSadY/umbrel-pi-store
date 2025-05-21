@@ -1,0 +1,11 @@
+﻿version: "3.8"
+
+services:
+  upsnap:
+    image: ghcr.io/seriousm4x/upsnap:latest
+    container_name: upsnap
+    restart: unless-stopped
+    ports:
+      - "8090:3000"
+    volumes:
+      - ./upsnap-data:/app/pb_data
