@@ -2,12 +2,13 @@
 id: "umbrel-pi-store-upsnap"
 name: "UpSnap"
 category: "networking"
-version: "4.4.0-beta.3"
+version: "5.0"
 description: "A simple Wake-on-LAN web app written with SvelteKit, Go, and PocketBase."
 developer: "seriousm4x"
 website: "https://github.com/seriousm4x/UpSnap"
 repo: "https://github.com/seriousm4x/UpSnap"
 support: "https://github.com/seriousm4x/UpSnap/issues"
+icon: "https://raw.githubusercontent.com/seriousm4x/UpSnap/b95b08d569cb705e74185c63ba876effbabbfb68/frontend/static/gopher.svg"
 gallery:
-  - https://raw.githubusercontent.com/seriousm4x/UpSnap/b95b08d569cb705e74185c63ba876effbabbfb68/frontend/static/gopher.svg
+  - "https://raw.githubusercontent.com/seriousm4x/UpSnap/b95b08d569cb705e74185c63ba876effbabbfb68/frontend/static/gopher.svg"
 port: 8090
