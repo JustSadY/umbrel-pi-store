@@ -1,0 +1,57 @@
+﻿manifestVersion: 1
+id: umbrel-pi-store-open-webui
+name: Open WebUI
+tagline: Chat with Ollama models like DeepSeek-R1 and LLama, or use an OpenAI API key
+category: ai
+version: "0.6.10"
+port: 2876
+description: >-
+  Open WebUI lets you chat with advanced AI models running locally on your own device or connect to online models using an API key.
+
+
+  **Getting Started with Local AI Models:**
+
+
+  ⬇️ Download a Model: In the Open WebUI app, type the name of the model you want in the search bar and click "Pull from Ollama.com." A full list of models is available at https://ollama.com/.
+
+
+  🤖 Example - Running DeepSeek-R1 1.5B: To use the DeepSeek-R1 model with 1.5 billion parameters, type deepseek-r1:1.5b in the search bar and start the download. Once it's ready, you can chat with the model directly in Open WebUI.
+
+
+  ⚠️ Warning: Before running a model, make sure your device has enough free RAM to support it. Attempting to run a model that exceeds your available memory could cause your device to crash or become unresponsive. Always check the model requirements before downloading or starting it.
+developer: Open WebUI
+website: https://openwebui.com/
+submitter: al-lac
+submission: https://github.com/getumbrel/umbrel-apps/pull/1977
+repo: https://github.com/open-webui/open-webui
+support: https://github.com/open-webui/open-webui/issues
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+defaultUsername: ""
+defaultPassword: ""
+releaseNotes: >-
+  Key highlights in this release include:
+    - Experimental Azure OpenAI Support for enterprise-grade AI integration
+    - Watermark AI Responses for clear content provenance
+    - Enhanced Search Experience with a dedicated modal
+    - "Toggle" Filter Type for Chat Input
+    - Granular Model Capabilities Editor
+    - Flexible Local and External Connection Support
+    - Allowed File Extensions for RAG
+    - Enhanced Audio Transcription Logic
+    - External Document Loader Support
+    - Preview Button for Code Artifacts
+    - Screen Reader Support for Response Messages
+    - Customizable Pending User Overlay
+    - Option to Disable LDAP Certificate Validation
+    - Workspace Search by Username or Email
+    - High Contrast & Dark Mode Enhancements
+    - Refined Security for Pipelines & Model Uploads
+    - Major Localization Upgrades
+    - General Backend Stability & Security improvements
+
+
+  Full release notes can be found at https://github.com/open-webui/open-webui/releases
+path: ""

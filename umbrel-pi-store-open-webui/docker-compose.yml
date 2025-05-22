@@ -1,0 +1,18 @@
+﻿version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: open-webui_web_1
+      APP_PORT: 8080
+      PROXY_AUTH_ADD: "false"
+
+  web:
+    image: ghcr.io/open-webui/open-webui:v0.6.10@sha256:e62f0bd1fe2901f838c4dea7d26d2332b2845da2a09a8c3ed99655db7bcbe4f5
+    volumes:
+      - ${APP_DATA_DIR}/data/open-webui:/app/backend/data
+    environment:
+      # Exported from ollama app, which is currently a required dependency.
+      # This will need to change once optional dependencies are supported.
+      OLLAMA_BASE_URL: $APP_OLLAMA_URL
+    restart: on-failure
