@@ -6,7 +6,7 @@ services:
     container_name: upsnap
     restart: unless-stopped
     ports:
-      - "3000:3000"
+      - "8090:8090"
     network_mode: host
     volumes:
       - upsnap-data:/app/data
