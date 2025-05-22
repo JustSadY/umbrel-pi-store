@@ -8,4 +8,6 @@ developer: "seriousm4x"
 website: "https://github.com/seriousm4x/UpSnap"
 repo: "https://github.com/seriousm4x/UpSnap"
 support: "https://github.com/seriousm4x/UpSnap/issues"
+gallery:
+  - https://raw.githubusercontent.com/seriousm4x/UpSnap/b95b08d569cb705e74185c63ba876effbabbfb68/frontend/static/gopher.svg
 port: 8090
