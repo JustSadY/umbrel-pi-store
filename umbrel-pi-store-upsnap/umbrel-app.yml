@@ -1,30 +1,11 @@
 ﻿manifestVersion: 1
-id: upsnap
-category: networking
-name: umbrel-pi-store-upsnap
-version: "2.0.0"
-tagline: Self-hosted uptime monitor for your services
-description: >-
-  Upsnap is a lightweight, self-hosted uptime monitoring tool that runs on your local network. It allows you to track the availability of your servers, websites, or other services and get a quick overview of their health.
-
-
-  🛠️ SET-UP INSTRUCTIONS
-
-  In the setup wizard, set the "Port" of the Web Interface to 3000.
-  This ensures compatibility with other apps in the Umbrel App Store and makes Upsnap accessible from the Umbrel homescreen.
-
-releaseNotes: >-
-  - Added support for webhook notifications
-  - Improved service status polling performance
-  - Updated UI for better readability and dark mode improvements
-
-developer: seriousm4x
-website: https://github.com/seriousm4x/upsnap
-dependencies: []
-repo: https://github.com/seriousm4x/upsnap
-support: https://github.com/seriousm4x/upsnap/issues
+id: "umbrel-pi-store-upsnap"
+name: "UpSnap"
+category: "networking"
+version: "4.4.0-beta.3"
+description: "A simple Wake-on-LAN web app written with SvelteKit, Go, and PocketBase."
+developer: "seriousm4x"
+website: "https://github.com/seriousm4x/UpSnap"
+repo: "https://github.com/seriousm4x/UpSnap"
+support: "https://github.com/seriousm4x/UpSnap/issues"
 port: 3000
-gallery:
-  - https://raw.githubusercontent.com/seriousm4x/UpSnap/1908a8c127206e34e444d2ea1a92aedbce908440/frontend/static/gopher.svg
-submitter: JustSadY
-submission: https://github.com/JustSadY/umbrel-pi-store

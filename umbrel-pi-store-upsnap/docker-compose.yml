@@ -1,11 +1,15 @@
-﻿version: "3.8"
+﻿version: "3.7"
 
 services:
   upsnap:
-    image: ghcr.io/seriousm4x/upsnap:latest
+    image: seriousm4x/upsnap:latest
     container_name: upsnap
     restart: unless-stopped
     ports:
       - "3000:3000"
+    network_mode: host
     volumes:
-      - ./upsnap-data:/app/pb_data
+      - upsnap-data:/app/data
+
+volumes:
+  upsnap-data:
